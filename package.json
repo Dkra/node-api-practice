@@ -1,0 +1,9 @@
+{
+  "name": "node-api-practice",
+  "version": "1.0.0",
+  "description": "learning nodeJS",
+  "main": "index.js",
+  "repository": "git@github.com:Dkra/node-api-practice.git",
+  "author": "Roger Jiang",
+  "license": "MIT"
+}
