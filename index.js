@@ -1,4 +1,21 @@
+console.log('-----------------------')
 const global = require('./modules/global.js');
+const process = require('./modules/process.js');
 
-const a = 333;
 global()
+process()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log('--------------------------------')

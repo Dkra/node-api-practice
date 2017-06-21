@@ -20,7 +20,7 @@
       "internalConsoleOptions": "neverOpen",
       "protocol": "inspector",
       "sourceMaps": true,
-      "stopOnEntry": true
+      "stopOnEntry": false
     }
   ]
 }
