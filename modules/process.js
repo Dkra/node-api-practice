@@ -45,20 +45,52 @@ module.exports = () => {
   *   Signal Events
   */
   
-  // process.abort()
+  /* process.abort() */
 
   // The process.abort() method causes the Node.js process to exit immediately and generate a core file.
   // process.abort()
   // console.log('after process.abort() is not execute')
 
 
-  // process.arch
+  /* process.arch */
 
   // The process.arch property returns a String identifying the processor architecture that the Node.js process is currently running on.
   // For instance 'arm', 'ia32', or 'x64'.
   console.log(`This processor architecture is ${process.arch}`);
 
+  /* process.argv */
 
+  // print process.argv
+  process.argv.forEach((val, index) => {
+    console.log(`${index}: ${val}`);
+  });
+  /*  Example:
+      $ node process-args.js one two=three four
+  
+      0: /usr/local/bin/node
+      1: /Users/mjr/work/node/process-args.js
+      2: one
+      3: two=three
+      4: four
+  */
+
+  /* process.cwd() */
+  console.log(`Current directory: ${process.cwd()}`);
+
+  /* process.env */
+  // console.log('process.env:', process.env)
+  
+  /* process.exit([code]) */
+  // process.exit(5)
+
+  /* process.memoryUsage() */
+  console.log('process.memoryUsage():', process.memoryUsage())
+
+  /* process.pid */
+  console.log('process.pid:', process.pid)
+
+  /* process.platform */
+  console.log('process.platform:', process.platform)
   /*
   *   Signal Events
   */
