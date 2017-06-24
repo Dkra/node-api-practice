@@ -91,6 +91,10 @@ module.exports = () => {
 
   /* process.platform */
   console.log('process.platform:', process.platform)
+
+  setTimeout(() => {
+    process.stdout.write('roger')
+  }, 5000)
   /*
   *   Signal Events
   */
