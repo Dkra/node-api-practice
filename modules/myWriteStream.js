@@ -6,7 +6,6 @@ module.exports = () => {
 
     myReadstream.on('data', (chunk) => {
         console.log('new chunk recied:');
-        console.log(chunk);
         myWritestream.write(chunk)
     })
 }
