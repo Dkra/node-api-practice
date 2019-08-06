@@ -12,5 +12,5 @@ module.exports = () => {
     console.log('we got our catted file', stdout)
   })
 
-  console.log('I will print before child_process')
+  console.log('I will print before child process, cuz child process is Async')
 }
